@@ -7,7 +7,7 @@ public class Triangle extends Shape{
 	}
 
 	public double calcArea() {
-		return (side*side)*Math.sqrt(3.0/4);
+		return ((side*side)*Math.sqrt(3.0))/4;
 	}
 
 	public double calcPerimeter() {
